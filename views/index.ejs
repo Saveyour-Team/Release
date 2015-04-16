@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Saveyour</title>
-    <link rel='stylesheet' href='/bower_components/bootstrap/dist/css/bootstrap.min.css' />
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+<head>
+	<title>Saveyour</title>
+	<link rel='stylesheet' href='/bower_components/bootstrap/dist/css/bootstrap.min.css' />
+	<link rel='stylesheet' href='/stylesheets/style.css' />
 
-    <script src='/bower_components/jquery/dist/jquery.min.js' ></script>
-    <script src='/bower_components/bootstrap/dist/js/bootstrap.min.js' ></script>
-    <script src='/bower_components/angular/angular.min.js' ></script>
-  </head>
-  <body>
-  	<h1>Saveyour</h1>
-  </body>
+	<script src='/bower_components/jquery/dist/jquery.min.js' ></script>
+	<script src='/bower_components/bootstrap/dist/js/bootstrap.min.js' ></script>
+	<script src='/bower_components/jszip/dist/jszip.min.js' ></script>
+	<script src='/bower_components/jszip/vendor/FileSaver.js' ></script>
+	<script src='/bower_components/jszip-utils/dist/jszip-utils.min.js'></script>
+	<script src='/javascripts/download.js' ></script>
+</head>
+<body>
+	<div class="container">
+
+		<div id="download">
+			<h1>Saveyour</h1>
+			<button id="download-btn" type="button" class="btn btn-info">Get the zip!</button>
+		</div>
+	</div>
+
+</body>
 </html>
