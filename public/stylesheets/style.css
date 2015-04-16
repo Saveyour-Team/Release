@@ -6,7 +6,11 @@ body {
 }
 
 a {
-  color: #00B7FF;
+	color: #FFFFFF;
+}
+
+a:hover {
+	text-decoration: none;
 }
 
 #download {
