@@ -5,10 +5,8 @@
 		<url>https://github.com/Saveyour-Team/Release/raw/master/Saveyour.exe</url>
 		<fileName>Saveyour2.exe</fileName>
 		<md5>f584e2c2ab49d5098a9112e3b2249bc2</md5>
-		<description>
-Initial Update for Saveyour Release
-Re-themed Saveyour to have rounded edges and a blue gradient background
-		</description>
+		<description>Initial Saveyour Update
+		Re-themed Saveyour to have rounded edges and a blue gradient background </description>
 		<launchArgs></launchArgs>
 	</update>
 </SaveyourUpdate>
