@@ -4,8 +4,8 @@
 		<version>1.0.1.0</version>
 		<url>https://github.com/Saveyour-Team/Release/raw/master/Saveyour.exe</url>
 		<fileName>Saveyour2.exe</fileName>
-		<md5>ffad9e4173ecde1b50d16b51a55ada34</md5>
-		<description>Initial Update Test</description>
+		<md5>271d6113a355135b8ca15ee8f237b9af</md5>
+		<description>Changed the color of the version label in the bottom right of login</description>
 		<launchArgs></launchArgs>
 	</update>
 </SaveyourUpdate>
