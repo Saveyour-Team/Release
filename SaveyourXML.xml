@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <SaveyourUpdate>
 	<update appId="Saveyour">
-		<version>1.0.1.0</version>
+		<version>1.1.0.0</version>
 		<url>https://github.com/Saveyour-Team/Release/raw/master/Saveyour.exe</url>
-		<fileName>Saveyour.exe</fileName>
-		<md5>ffad9e4173ecde1b50d16b51a55ada34</md5>
+		<fileName>Saveyour2.exe</fileName>
+		<md5>f584e2c2ab49d5098a9112e3b2249bc2</md5>
 		<description>Initial Update Test</description>
 		<launchArgs></launchArgs>
 	</update>
