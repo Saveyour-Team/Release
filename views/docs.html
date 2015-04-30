@@ -37,17 +37,25 @@
 				</div>
 
 				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="main-nav">
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
 						<li id="download"><a href="/">Download</a></li>
-						<li id="docs"><a href="/docs">Documentation</a></li>
+						<li id="docs" class="dropdown">
+							<a href="/docs" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Documentation<span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="/docs">Documentation</a></li>
+								<li class="divider"></li>
+								<li><a href="/docs#user-docs">User Docs</a></li>
+								<li><a href="/docs#rel-notes">Release Notes</a></li>
+							</ul>
+						</li>
 					</ul>
 				</div>
 			</div>
 		</nav> <!-- end main nav -->
 
 		<div class="page-content">
-			<div id="user_docs">
+			<div id="user-docs">
 				<h1>User Documentation</h1>
 				<a href="/resources/Documentation/UserDocumentation.pdf" download><button id="download-btn" type="button" class="btn btn-info">Download as PDF</button></a>
 				<a href="/resources/HTML-documentation/UserDocumentation.html" target="_blank"><button type="button" class="btn btn-info">View as HTML</button></a>
@@ -55,7 +63,55 @@
 			<div id="rel-notes">
 				<h1>Release Notes</h1>
 				<p>This page last updated on: April 30th, 2015. To view most up-to-date release-notes, please navigate to the release notes page from <a href="https://github.com/Saveyour-Team/Saveyour/blob/master/releasenotes.md" target="_blank"><span id="rel-notes-link">our GitHub</span></a>.</p>
+				<!-- this was obtained by simply copy pasting the markdown of the release notes into a md -> html converter found at http://daringfireball.net/projects/markdown/dingus -->
+				<div id="rel-notes-html">
+					<ul class="list-group">
+						<li class="list-group-item">
+							<h2>Beta Release - Wednesday April 1, 2015</h2>
+							<hr/>
+							<h3>Log-in</h3>
 
+							<p>TLS Certificate was added to supply a secure connection between the client and the server. Pressing tab/enter in the username field will allow one to jump to the password field. You must click Add Certificate before being able to log in.</p>
+
+							<h3>Quick Notes Module</h3>
+
+							<p>Quicknotes module created and is able to be resized. Exiting the module causes the application to save the user data to the server as well as locally</p>
+
+							<h3>Weekly To-Do Module</h3>
+
+							<p>Weekly To-Do module created and is able to add tasks for each day of the week. Window can be resized only horizontally.</p>
+
+							<h3>Settings Module</h3>
+
+							<p>Buttons in the settings should be able to show/hide modules. Showing and hiding the modules does not destroy the process, it keeps it running which is one of the key aspects behind Saveyour. </p>
+
+							<h3>Known Issues</h3>
+
+							<h4>Known Issue #1: Weekly To-Do has limited functionality</h4>
+
+							<p>Weekly To-Do can only have one task per day display at a time. The days also seemed to be cramped. There is also no option to resize it vertically which is something that needs to be worked on for the final release.</p>
+
+							<h4>Known Issue #2: No loading modules sign</h4>
+
+							<p>When logging in, it may take a few seconds before seeing the modules load. There is no visual feedback to tell the user this so one may think that the app has crashed. </p>
+
+							<h4>Known Issue #3: Settings Module does not have show/hide for all of the modules</h4>
+
+							<p>The settings module does not have show/hide for all of the modules. Also, other than showing/hiding, the settings module is limited so far. This will be changed in the final release.</p>
+						</li> <!-- end beta release notes -->
+						<li class="list-group-item"> <!-- start alpha release notes -->
+							<h2>Alpha Release - Monday March 9, 2015</h2>
+							<hr/>
+							<h3>Log-in</h3>
+
+							<p>Added functinoality to login.</p>
+
+							<h3>Feedback Window</h3>
+
+							<p>To show data from the database/server a window is created with the username and a string taken as data from a server.</p>
+						</li> <!-- end alpha release notes -->
+					</ul>
+				</div>
 			</div>
 		</div>
 		

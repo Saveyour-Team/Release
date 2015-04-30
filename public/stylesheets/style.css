@@ -21,3 +21,11 @@ a:hover {
 	color: #FFA500;
 	text-decoration: underline;
 }
+
+#rel-notes-html {
+	text-align:left;
+}
+
+#rel-notes-html li {
+	background-color: #5FbFFF;
+}
