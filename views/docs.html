@@ -13,6 +13,11 @@
 	<script src='/bower_components/jszip-utils/dist/jszip-utils.min.js'></script>
 	<script src='/javascripts/download.js' ></script>
 	<script src='/javascripts/saveyour_site.js' ></script>
+	<script language="javascript" type="text/javascript">
+		function resizeIframe(obj) {
+			obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+		}
+	</script>
 </head>
 <body>
 	<div class="container">
@@ -41,9 +46,19 @@
 			</div>
 		</nav> <!-- end main nav -->
 
-		<div id="download">
-			
+		<div class="page-content">
+			<div id="user_docs">
+				<h1>User Documentation</h1>
+				<a href="/resources/Documentation/UserDocumentation.pdf" download><button id="download-btn" type="button" class="btn btn-info">Download as PDF</button></a>
+				<a href="/resources/HTML-documentation/UserDocumentation.html" target="_blank"><button type="button" class="btn btn-info">View as HTML</button></a>
+			</div>
+			<div id="rel-notes">
+				<h1>Release Notes</h1>
+				<p>This page last updated on: April 30th, 2015. To view most up-to-date release-notes, please navigate to the release notes page from <a href="https://github.com/Saveyour-Team/Saveyour/blob/master/releasenotes.md" target="_blank"><span id="rel-notes-link">our GitHub</span></a>.</p>
+
+			</div>
 		</div>
+		
 	</div>
 </body>
 </html>

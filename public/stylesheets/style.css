@@ -13,6 +13,11 @@ a:hover {
 	text-decoration: none;
 }
 
-#download {
+.page-content {
 	text-align:center;
+}
+
+#rel-notes-link {
+	color: #FFA500;
+	text-decoration: underline;
 }
