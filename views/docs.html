@@ -55,18 +55,21 @@
 		</nav> <!-- end main nav -->
 
 		<div class="page-content">
+			<hr/>
 			<div id="user-docs">
 				<h1>User Documentation</h1>
-				<a href="/resources/Documentation/UserDocumentation.pdf" download><button id="download-btn" type="button" class="btn btn-info">Download as PDF</button></a>
-				<a href="/resources/HTML-documentation/UserDocumentation.html" target="_blank"><button type="button" class="btn btn-info">View as HTML</button></a>
+				<!--a href="/resources/Documentation/UserDocumentation.pdf" download><button id="download-btn" type="button" class="btn btn-info">Download as PDF</button></a>
+				<a href="/resources/HTML-documentation/UserDocumentation.html" target="_blank"><button type="button" class="btn btn-info">View as HTML</button></a-->
+				<a class="btn btn-primary btn-lg" href="/resources/Documentation/UserDocumentation.pdf" role="button" download>Download as PDF</a>
+				<a class="btn btn-primary btn-lg" href="/resources/HTML-documentation/UserDocumentation.html" role="button" target="_blank">View as HTML</a>
 			</div>
+			<hr/>
 			<div id="rel-notes">
-				<h1>Release Notes</h1>
-				<p>This page last updated on: April 30th, 2015. To view most up-to-date release-notes, please navigate to the release notes page from <a href="https://github.com/Saveyour-Team/Saveyour/blob/master/releasenotes.md" target="_blank"><span id="rel-notes-link">our GitHub</span></a>.</p>
+				<h1>Release Notes</h1>				
 				<!-- this was obtained by simply copy pasting the markdown of the release notes into a md -> html converter found at http://daringfireball.net/projects/markdown/dingus -->
 				<div id="rel-notes-html">
 					<ul class="list-group">
-						<li class="list-group-item">
+						<li class="list-group-item lighter-blue">
 							<h2>Beta Release - Wednesday April 1, 2015</h2>
 							<hr/>
 							<h3>Log-in</h3>
@@ -99,7 +102,7 @@
 
 							<p>The settings module does not have show/hide for all of the modules. Also, other than showing/hiding, the settings module is limited so far. This will be changed in the final release.</p>
 						</li> <!-- end beta release notes -->
-						<li class="list-group-item"> <!-- start alpha release notes -->
+						<li class="list-group-item lighter-blue"> <!-- start alpha release notes -->
 							<h2>Alpha Release - Monday March 9, 2015</h2>
 							<hr/>
 							<h3>Log-in</h3>
@@ -113,8 +116,8 @@
 					</ul>
 				</div>
 			</div>
+			<p>This page was last updated on <span class="bold">April 30th, 2015</span>. If this information seems out of date, please let us know by submitting an issue at <a href="https://github.com/Saveyour-Team/Saveyour/issues" target="_blank"><span id="rel-notes-link">our GitHub</span></a>.</p>
 		</div>
-		
 	</div>
 </body>
 </html>
