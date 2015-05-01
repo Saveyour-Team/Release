@@ -11,6 +11,8 @@ function apply_active_class_on_load(pathname) {
 		$('#download').addClass('active');
 	} else if (pathname === '/docs') {
 		$('#docs').addClass('active');
+	} else if (pathname === '/plugins') {
+		$('#plugins').addClass('active');
 	} else {
 		Console.log("Pathname: \"" + pathname + "\" not handled.");
 	}
