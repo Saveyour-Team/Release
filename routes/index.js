@@ -10,4 +10,8 @@ router.get('/docs', function(req, res) {
 	res.render('docs.html')
 })
 
+router.get('/plugins', function(req, res) {
+	res.render('plugins.html');
+})
+
 module.exports = router;
