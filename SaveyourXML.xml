@@ -4,9 +4,26 @@
 		<version>1.3.0.0</version>
 		<url>https://github.com/Saveyour-Team/Release/blob/master/Saveyour.exe?raw=true</url>
 		<fileName>Saveyour2.exe</fileName>
-		<md5>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</md5>
+		<md5>243496a39e84f4fa2b0a365d002940ee</md5>
 		<description>
 		<![CDATA[#ChangeLog]]>
+		<![CDATA[##[1.3.0.0] - 2015-05-01]]>
+		<![CDATA[###Changed]]>
+		<![CDATA[- Added functionality to homework module]]>
+		<![CDATA[- Added a button in Settings to open additional Quicknotes]]>
+		<![CDATA[- Changed Saveyour plugin loading to support hiding of windowed plugins]]>
+		<![CDATA[- Changed stock buttons in homework module to new custom buttons]]>
+		<![CDATA[- All default Saveyour windows now have the Saveyour theme]]>
+		<![CDATA[- Fixed a bug in hiding and showing modules]]>
+		<![CDATA[##[1.2.0.0] - 2015-05-01]]>
+		<![CDATA[- Changed blue and white gradient theme to blue and white solid theme]]>
+		<![CDATA[- Fixed a bug that would cause the Add Task button in Weekly To Do to be cut off]]>
+		<![CDATA[##[1.1.0.0] - 2015-05-01]]>
+		<![CDATA[- Began preliminary UI overhaul]]>
+		<![CDATA[- Added preliminary homework module]]>
+		<![CDATA[##[1.0.0.0] - 2015-05-01]]>
+		<![CDATA[- Initial Release]]>
+	
 		</description>
 		<launchArgs></launchArgs>
 	</update>
