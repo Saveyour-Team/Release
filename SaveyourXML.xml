@@ -6,23 +6,23 @@
 		<fileName>Saveyour2.exe</fileName>
 		<md5>243496a39e84f4fa2b0a365d002940ee</md5>
 		<description>
-		#ChangeLog&#10;
-		##[1.3.0.0] - 2015-05-01&#10;
-		###Changed&#10;
-		- Added functionality to homework module&#10;
-		- Added a button in Settings to open additional Quicknotes&#10;
-		- Changed Saveyour plugin loading to support hiding of windowed plugins&#10;
-		- Changed stock buttons in homework module to new custom buttons&#10;
-		- All default Saveyour windows now have the Saveyour theme&#10;
-		- Fixed a bug in hiding and showing modules&#10;
-		##[1.2.0.0] - 2015-05-01&#10;
-		- Changed blue and white gradient theme to blue and white solid theme&#10;
-		- Fixed a bug that would cause the Add Task button in Weekly To Do to be cut off&#10;
-		##[1.1.0.0] - 2015-05-01&#10;
-		- Began preliminary UI overhaul&#10;
-		- Added preliminary homework module&#10;
-		##[1.0.0.0] - 2015-05-01&#10;
-		- Initial Release&#10;
+		#ChangeLog&x0A;
+		##[1.3.0.0] - 2015-05-01&x0A;
+		###Changed&x0A;
+		- Added functionality to homework module&x0A;
+		- Added a button in Settings to open additional Quicknotes&x0A;
+		- Changed Saveyour plugin loading to support hiding of windowed plugins&x0A;
+		- Changed stock buttons in homework module to new custom buttons&x0A;
+		- All default Saveyour windows now have the Saveyour theme&x0A;
+		- Fixed a bug in hiding and showing modules&x0A;
+		##[1.2.0.0] - 2015-05-01&x0A;
+		- Changed blue and white gradient theme to blue and white solid theme&x0A;
+		- Fixed a bug that would cause the Add Task button in Weekly To Do to be cut off&x0A;
+		##[1.1.0.0] - 2015-05-01&x0A;
+		- Began preliminary UI overhaul&x0A;
+		- Added preliminary homework module&x0A;
+		##[1.0.0.0] - 2015-05-01&x0A;
+		- Initial Release&x0A;
 		</description>
 		<launchArgs></launchArgs>
 	</update>
