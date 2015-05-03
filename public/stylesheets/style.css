@@ -31,7 +31,11 @@ a:hover {
 }
 
 .lighter-blue {
-	background-color: #4FaFEF;
+	background-color: #4FAFEF;
+}
+
+.nav-hovered {
+	background-color: #EFEFEF;
 }
 
 #install p {
